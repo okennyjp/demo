@@ -15,11 +15,17 @@
 * データベース名 : test
 
 ### ソースコード保存先
-* [Githud](https://github.com/okennyjp/demo)
+* https://github.com/okennyjp/demo
 
 ### ビルド
-* 展開先 : 任意(開発は C:¥¥workspace¥¥demo で実行)
-* ビルド : コマンドプロンプトで展開先に移動して gradle  build を実行
+* 展開先 : 任意(開発は C:\\workspace\\demo で実行)
+* ビルド : コマンドプロンプトで展開先に移動して gradle build を実行
+
+### テーブル作成
+* DDL保存先 : C:\\workspace\\demo\\derby\\script
+* データベース作成 : コマンドプロンプトでDDL保存先に移動して ij database-create.sql を実行
+* テーブル作成 : コマンドプロンプトでDDL保存先に移動して ij users-create.sql を実行
+* サンプル登録 : コマンドプロンプトでDDL保存先に移動して ij users-insert.sql を実行
 
 ### 実行
 * 実行 : コマンドプロンプトで展開先に移動して gradle bootrun を実行
