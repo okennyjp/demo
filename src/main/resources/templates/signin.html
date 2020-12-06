@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8"/><title>アカウント新規登録</title></head>
+<body>
+<p th:text="${message}"></p>
+<form action="/sign-in" method="post">
+  <table>
+    <tr><td>ログインID:</td><td><input name="login_id" maxlength="16" size="32" placeholder="ID"/></td></tr>
+    <tr><td>パスワード:</td><td><input name="password" maxlength="16" size="32" placeholder="PASSWORD"/></td></tr>
+    <tr><td colspan="2" align="right"><button type="submit">登録</button></td></tr>
+  </table>
+</form>
+</body>
+</html>
